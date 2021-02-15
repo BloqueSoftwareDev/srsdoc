@@ -22,21 +22,24 @@ _Table of content generated using VSCode plugin [Markdown TOC](https://marketpla
 # Introduction
 
 ## Purpose
-Set the expectation for the product you’re building. So, start by defining the purpose of your product.
+Inspirar a los jóvenes, principalmente aquellos que tradicionalmente no se atraen a la rama de STEM, a que no se sientan limitados por temas de miedo o estereotipos para volverse quienes quieren realmente ser. 
 
 ## Scope
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
 
+
+
 ## Definitions and Acronyms
-Include any non-trivial definition or acronym used in the document.
+STEM: Science Technology Engineering Mathematics (Relates to careers in those branches)
+STEAM: Science Technology Engineering Arts Mathematics (Organization with the purpose of bringing not only art into STEM but introducing it to those who normally stray away from it)
 
 # Overall Description
-Describe what you’re going to build. Is it an update to an existing product? Is it a new product? Is it an add-on to a product you’ve already created?
-
-These are important to describe upfront, so everyone knows what you’re building.
+El producto diseñado en sí será completamente nuevo desde cero, un videojuego. Pero este se deberá implementar dentro de un producto existente, la página web de STEAM.
 
 ## User classes
 User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
+
+Los usuarios principales son estudiantes de pre
 
 ## Assumptions and Dependencies
 There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
