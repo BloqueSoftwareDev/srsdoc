@@ -27,7 +27,9 @@ Inspirar a los jóvenes, principalmente aquellos que tradicionalmente no se atra
 ## Scope
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
 
+El software desarrollado será una aplicación diseñada dentro de Unity que se implementará junto con una página web diseñada en html. El beneficio principal de esto es la facilidad de acceso y la manera dinámica de ver estos conceptos como usuario sin sentirse abrumado por enormes cantidades de datos.
 
+El alcance del software es un juego de ___ cantidad de niveles en el que cada uno muestra distintos aspectos de la vocación.
 
 ## Definitions and Acronyms
 STEM: Science Technology Engineering Mathematics (Relates to careers in those branches)
@@ -37,16 +39,16 @@ STEAM: Science Technology Engineering Arts Mathematics (Organization with the pu
 El producto diseñado en sí será completamente nuevo desde cero, un videojuego. Pero este se deberá implementar dentro de un producto existente, la página web de STEAM.
 
 ## User classes
-User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
-
-Los usuarios principales son estudiantes de pre
+Los usuarios principales son estudiantes de preparatoria que deberan pronto tomar la decisión de su carrera para el futuro. Estos usuarios utilizarán el producto después de atender una conferencia de STEAM y jugarán el juego para ver su contenido de manera dinámica. Es necesario que puedan utilizar el producto sin leer un manual extensivo antes de esto.
 
 ## Assumptions and Dependencies
-There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
+Es posible que nuestra capacidad de cumplir con los requisitos sea directamente impactada por algunas características.
 
-Are there any assumptions you’re making that could turn out to be false? You should include those here, as well.
+La cantidad de tiempo que se nos proporciona para realizar el proyecto, dificultades con las herramientas de desarrollo, problemáticas de comunicación interna, y nuevos requisitos añadidos por STEAM durante el desarrollo del software.
 
-Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project.
+Es posible que no existan complicaciones con las herramientas durante el transcurso del proyecto, al igual que pueden no haber nuevos requisitos pedidos durante el mismo.
+
+Algunos factores externos que podrían impactar nuestra capacidad de cumplir con los requisitos sería la perspectiva de STEAM y el rendimiento de sus servidores web.
 
 # System Features and Requirements
 This is where you detail the specific requirements for building your product.
