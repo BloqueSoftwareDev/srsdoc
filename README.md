@@ -71,12 +71,7 @@ El sistema permite al usuario continuar después de morir una cantidad de veces 
 El sistema tiene a un personaje principal femenino.
 
 
-Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion:
-
-> As a __[type of user]__, I want __[some goal]__ so that __[some reason]__.
-
-You may want to use the following template table.
-
+### User Stories
 |Title|User story|Importance|Notes|
 |---|---|---|---|
 |_Fun_|_As a teenager, I want to have fun so that I can learn about other careers_|_Must have_|_Remove anything that is not enriching or fun_|
