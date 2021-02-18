@@ -51,7 +51,7 @@ Es posible que no existan complicaciones con las herramientas durante el transcu
 Algunos factores externos que podrían impactar nuestra capacidad de cumplir con los requisitos sería la perspectiva de STEAM y el rendimiento de sus servidores web.
 
 # System Features and Requirements
-This is where you detail the specific requirements for building your product.
+
 
 ## Functional Requirements
 The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
