@@ -68,15 +68,17 @@ El sistema permite al usuario comenzar niveles desde un punto medio a través de
 
 El sistema permite al usuario continuar después de morir una cantidad de veces infinita. 
 
-El sistema tiene a un personaje principal femenino.
+El sistema permite al usuario pausar el juego y resumir.
 
 
 ### User Stories
 |Title|User story|Importance|Notes|
 |---|---|---|---|
-|_Fun_|_As a teenager, I want to have fun so that I can learn about other careers_|_Must have_|_Remove anything that is not enriching or fun_|
-|_Educational_|_As a member of STEAM, I want the game to motivate users towards STEM so that they may choose a career there if they desire _|_Must have_|_Game must be educational at its core_|
-|_Pacing_|_As a teenager, I want the game to be short so that I do not have to spend longer than everyone else if I am slower_|Aim to have_|_Make the levels short and sweet_|
+|_Fun_|_As a direct user, I want to have fun so that I can learn about other careers_|_Must have_|_Remove anything that is not enriching or fun_|
+|_Educational_|_As an admin, I want the game to motivate users towards STEM so that they may choose a career there if they desire_|_Must have_|_Game must be educational at its core_|
+|_Pacing_|_As a direct user, I want the game to be short so that I do not have to spend longer than everyone else if I am slower_|_Aim to have_|_Make the levels around a minute_|
+|_Control_|_As a direct user, I want to be able to control my character with ease so that I can reach the end_|Must have_|_Create fluid controls_|
+|_Start_|_As a direct user, I want to be able to begin the game from scratch so that I can play it without knowing anything beforehand_|_Aim to have_|_Create system of progression_|
 
 
 ## Non-functional Requirements
@@ -85,6 +87,8 @@ Non-functional requirements are restrictions on the system or the development pr
 El sistema debe de correr a una velocidad de por lo menos 30 fps.
 
 El usuario debe de poder completar el juego desde el primer nivel hasta el último.
+
+El sistema debe de cargar cada nivel en menos de 15 segundos.
 
 
 
