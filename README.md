@@ -78,17 +78,15 @@ El sistema tiene a un personaje principal femenino.
 |_Educational_|_As a member of STEAM, I want the game to motivate users towards STEM so that they may choose a career there if they desire _|_Must have_|_Game must be educational at its core_|
 |_Pacing_|_As a teenager, I want the game to be short so that I do not have to spend longer than everyone else if I am slower_|Aim to have_|_Make the levels short and sweet_|
 
-## External Interface Requirements
-External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems.
-
-There are several types of interfaces you may have requirements for, including:
-- User
-- Hardware
-- Software
-- Communications
 
 ## Non-functional Requirements
 Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
+
+El sistema debe de correr a una velocidad de por lo menos 30 fps.
+
+El usuario debe de poder completar el juego desde el primer nivel hasta el último.
+
+
 
 # Screens
 Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
