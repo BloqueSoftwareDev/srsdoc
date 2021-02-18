@@ -68,6 +68,8 @@ El sistema permite al usuario comenzar niveles desde un punto medio a través de
 
 El sistema permite al usuario continuar después de morir una cantidad de veces infinita. 
 
+El sistema tiene a un personaje principal femenino.
+
 
 Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion:
 
@@ -78,9 +80,8 @@ You may want to use the following template table.
 |Title|User story|Importance|Notes|
 |---|---|---|---|
 |_Fun_|_As a teenager, I want to have fun so that I can learn about other careers_|_Must have_|_Remove anything that is not enriching or fun_|
-|_Short identifier_|_As a [type of user], I want [some goal] so that [some reason]_|_Must have_|_Write here any additional consideration_|
-|_Short identifier_|_As a [type of user], I want [some goal] so that [some reason]_|_Must have_|_Write here any additional consideration_|
-|_Short identifier_|_As a [type of user], I want [some goal] so that [some reason]_|_Must have_|_Write here any additional consideration_|
+|_Educational_|_As a member of STEAM, I want the game to motivate users towards STEM so that they may choose a career there if they desire _|_Must have_|_Game must be educational at its core_|
+|_Pacing_|_As a teenager, I want the game to be short so that I do not have to spend longer than everyone else if I am slower_|Aim to have_|_Make the levels short and sweet_|
 
 ## External Interface Requirements
 External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems.
