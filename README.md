@@ -57,10 +57,15 @@ Algunos factores externos que podrían impactar nuestra capacidad de cumplir con
 The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
 
 El sistema permite que el usuario controle a un personaje y lo mueva a los lados, al igual que hacerlo saltar.
+
 El sistema permite al usuario comenzar el juego dentro del primer nivel.
+
 El sistema permite al usuario adquirir habilidades nuevas al final de cada nivel.
+
 El sistema permite al usuario recibir tres golpes antes de tener que comenzar el nivel de nuevo.
+
 El sistema permite al usuario comenzar niveles desde un punto medio a través de "checkpoints".
+
 El sistema permite al usuario continuar después de morir una cantidad de veces infinita. 
 
 
