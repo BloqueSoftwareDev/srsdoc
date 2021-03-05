@@ -34,15 +34,9 @@
 Wrecking Pandemic es un platformer 2D sobre una ingeniera biomédica que debe salvar al mundo de una pandemia y de aquellos que no siguen las regulaciones. Ella diseña y construye las herramientas perfectas para cada nivel; incluyendo un spray curativo, pócima de doble salto y armadura protectiva.
 
 ## Gameplay
-What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in 
-the way? What tactics should the player use to overcome them?
-
 Al ser un platformer 2D, Wrecking Pandemic incluye principalmente movimiento de izquierda a derecha con saltos para evitar enemigos y llegar a plataformas. El objetivo del juego es llegar al final, derrotar el mini-boss y conseguir el componente de la cura del nivel correspondiente. Al principio de cada nivel Emily diseña una herramienta que le otorga una habilidad perfecta para el nivel, y debe de usar esta para sobrepasar los objetivos particulares del nivel. El jugador debe adaptarse para estas situaciones únicas, pero siempre manteniendo la esencia de moverse de izquierda a derecha y saltar. 
 
 ## Mindset
-What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or 
-weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
-
 Es deseado que el jugador tenga la mentalidad de empoderamiento y aventura, para motivarlo hacia la toma de decisión de una carrera relacionada a STEM. Esto se hará a través de las grandes habilidades del personaje principal Emily, y los grandes obstáculos que logra sobrepasar por el bien del mundo. Al ver la capacidad y el resultado del esfuerzo de Emily, el jugador sentirá todo esto y más.
 
 # Technical
@@ -51,53 +45,87 @@ Es deseado que el jugador tenga la mentalidad de empoderamiento y aventura, para
 
 ```
 1. Title Screen
-    a. Options
-2. Level Select
+2. Between Levels Screen
 3. Game
-    a. Inventory
-    b. Assessment / Next Level
+    a. Power-ups Obtained
 4. End Credits
 ```
 
-_(example)_
-
 ## Controls
-How will the player interact with the game? Will they be able to choose the controls? What kind of 
-in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+El jugador no puede modificar los controles, pero se les dirá cuales son al comenzar el juego. El jugador podrá interactuar con ciertos objetos en su alrededor, incluyendo las mesas de construcción, checkpoints, y enemigos. Esto principalmente se hace simplemente caminando por el objeto, aunque el jugador podrá derrotar a los enemigos presionando la tecla "P" para disparar el proyectil.
 
 ## Mechanics
-Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
-algorithms, etc.
+Al comenzar el juego el avatar solo puede moverse hacia los lados y saltar una sola vez. Durante el transcurso del juego obtienes nuevas habilidades, en el siguiente orden:
+
+```
+Principio del nivel 1 - Obtienes la habilidad de disparar el proyectil de spray al presionar la tecla "P". Este proyectil destruye a los enemigos comunes con un solo golpe, pero a los bosses se les debe disparar varias veces.
+
+Principio del nivel 2 - Obtienes la habilidad de saltar una vez adicional después de tu primer salto. Esto se hace a través de un int que mide cuantos saltos te quedan, comenzando con 1 pero volviendose 2 al conseguir esta habilidad. Este int se resettea al tocar el suelo después de saltar.
+
+Principio del nivel 3 - Obtienes la habilidad de protección con el escudo, bloqueando proyectiles con la tecla "O". Esos proyectiles solo se pueden bloquear frente a Emily, proyectiles detrás aún causarán daño.
+```
+
+Cada boss tiene sus propias mecánicas:
+
+
+```
+El Anti-masker tiene la habilidad de llamar a mini anti-maskers para correr hacia el jugador, aunque no sean atacados, estos siempre se moveran a la derecha sin regresar. Si son atacados, son derrotados en un solo golpe como el resto de los enemigos comunes. El anti-masker también tiene la habilidad de gritar tan fuerte que lanza un proyectil que se debe evitar saltando por encima o caminando por debajo. El anti-masker debe recibir 5 ataques antes de ser derrotado y tiene unos segundos de invulnerabilidad al ser atacado.
+
+El granjero tiene la habilidad de 
+```
+
+Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá a través de checks de estado para ver si puedes saltar, al igual que mecánicas dentro del sistema para diseñar proyectiles que se originan del personaje y se hacen más grandes al alejarse de este.
+
+The enemies walk left to right 
 
 # Level Design
  (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
 
 ## Themes
 ```
-1.	Forest
+1.	City at Night
     a.	Mood
-        i.	Dark, calm, foreboding
+        i.	Suspenseful, dark, dangerous
     b.	Objects
         i.	Ambient
-            1.	Fireflies
-            2.	Beams of moonlight
-            3.	Tall grass
+            1.	Trash
+            2.	Moonlight
+            3.	Cars
+            4.	Advertising Billboards
         ii.	Interactive
-            1.	Wolves
-            2.	Goblins
-            3.	Rocks
-2.	Castle
+            1.	Wooden Platforms
+            2.	Sick Citizens (Enemy)
+            3.	Chasms
+            4.	Anti-masker (Karen) boss 
+2.	Plains
     a.	Mood
-        i.	Dangerous, tense, active
+        i.	Peaceful, calm, active
     b.	Objects
         i.	Ambient
-            1.	Rodents
-            2.	Torches
-            3.	Suits of armor
+            1.	Trees
+            2.	Grass
+            3.	Critters
+            4.	Fences
         ii.	Interactive
-            1.	Guards
-            2.	Giant rats
-            3.	Chests
+            1.	Sick Countrymen (Enemy)
+            2.	Platforms
+            3.	Workbench
+            4.	Sick Farmer boss
+3.	Cavern
+    a.	Mood
+        i.	Spooky, threatening, silent
+    b.	Objects
+        i.	Ambient
+            1.	Stalagmite
+            2.	Dew drops
+            3.	Critters
+            4.	Danger signs
+        ii.	Interactive
+            1.	Mini-Bats (Enemy)
+            2.	Stalagmites/Stalactites
+            3.	Workbench
+            4.	Bat Boss
+
 ```
 
 _(example)_
