@@ -31,15 +31,19 @@
 # Game Design
 
 ## Summary
-Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
+Wrecking Pandemic es un platformer 2D sobre una ingeniera biomédica que debe salvar al mundo de una pandemia y de aquellos que no siguen las regulaciones. Ella diseña y construye las herramientas perfectas para cada nivel; incluyendo un spray curativo, pócima de doble salto y armadura protectiva.
 
 ## Gameplay
 What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in 
 the way? What tactics should the player use to overcome them?
 
+Al ser un platformer 2D, Wrecking Pandemic incluye principalmente movimiento de izquierda a derecha con saltos para evitar enemigos y llegar a plataformas. El objetivo del juego es llegar al final, derrotar el mini-boss y conseguir el componente de la cura del nivel correspondiente. Al principio de cada nivel Emily diseña una herramienta que le otorga una habilidad perfecta para el nivel, y debe de usar esta para sobrepasar los objetivos particulares del nivel. El jugador debe adaptarse para estas situaciones únicas, pero siempre manteniendo la esencia de moverse de izquierda a derecha y saltar. 
+
 ## Mindset
 What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or 
 weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
+
+Es deseado que el jugador tenga la mentalidad de empoderamiento y aventura, para motivarlo hacia la toma de decisión de una carrera relacionada a STEM. Esto se hará a través de las grandes habilidades del personaje principal Emily, y los grandes obstáculos que logra sobrepasar por el bien del mundo. Al ver la capacidad y el resultado del esfuerzo de Emily, el jugador sentirá todo esto y más.
 
 # Technical
  
