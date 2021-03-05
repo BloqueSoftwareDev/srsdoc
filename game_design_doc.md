@@ -58,20 +58,17 @@ El jugador no puede modificar los controles, pero se les dirá cuales son al com
 Al comenzar el juego el avatar solo puede moverse hacia los lados y saltar una sola vez. Durante el transcurso del juego obtienes nuevas habilidades, en el siguiente orden:
 
 
--Principio del nivel 1 - Obtienes la habilidad de disparar el proyectil de spray al presionar la tecla "P". Este proyectil destruye a los enemigos comunes con un solo golpe, pero a los bosses se les debe disparar varias veces.
-
--Principio del nivel 2 - Obtienes la habilidad de saltar una vez adicional después de tu primer salto. Esto se hace a través de un int que mide cuantos saltos te quedan, comenzando con 1 pero volviendose 2 al conseguir esta habilidad. Este int se resettea al tocar el suelo después de saltar.
-
--Principio del nivel 3 - Obtienes la habilidad de protección con el escudo, bloqueando proyectiles con la tecla "O". Esos proyectiles solo se pueden bloquear frente a Emily, proyectiles detrás aún causarán daño.
+- Principio del nivel 1 - Obtienes la habilidad de disparar el proyectil de spray al presionar la tecla "P". Este proyectil destruye a los enemigos comunes con un solo golpe, pero a los bosses se les debe disparar varias veces.
+- Principio del nivel 2 - Obtienes la habilidad de saltar una vez adicional después de tu primer salto. Esto se hace a través de un int que mide cuantos saltos te quedan, comenzando con 1 pero volviendose 2 al conseguir esta habilidad. Este int se resettea al tocar el suelo después de saltar.
+- Principio del nivel 3 - Obtienes la habilidad de protección con el escudo, bloqueando proyectiles con la tecla "O". Esos proyectiles solo se pueden bloquear frente a Emily, proyectiles detrás aún causarán daño.
 
 
 Cada boss tiene sus propias mecánicas:
 
 
 
--El Anti-masker tiene la habilidad de llamar a mini anti-maskers para correr hacia el jugador, aunque no sean atacados, estos siempre se moveran a la derecha sin regresar. Si son atacados, son derrotados en un solo golpe como el resto de los enemigos comunes. El anti-masker también tiene la habilidad de gritar tan fuerte que lanza un proyectil que se debe evitar saltando por encima o caminando por debajo. El anti-masker debe recibir 5 ataques antes de ser derrotado y tiene unos segundos de invulnerabilidad al ser atacado.
-
--El granjero tiene la habilidad de 
+- El Anti-masker tiene la habilidad de llamar a mini anti-maskers para correr hacia el jugador, aunque no sean atacados, estos siempre se moveran a la derecha sin regresar. Si son atacados, son derrotados en un solo golpe como el resto de los enemigos comunes. El anti-masker también tiene la habilidad de gritar tan fuerte que lanza un proyectil que se debe evitar saltando por encima o caminando por debajo. El anti-masker debe recibir 5 ataques antes de ser derrotado y tiene unos segundos de invulnerabilidad al ser atacado.
+- El granjero tiene la habilidad de 
 
 Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá a través de checks de estado para ver si puedes saltar, al igual que mecánicas dentro del sistema para diseñar proyectiles que se originan del personaje y se hacen más grandes al alejarse de este.
 
