@@ -73,7 +73,8 @@ Cada boss tiene sus propias mecánicas:
 
 
 Sick-guy: se mueve de derecha a izquierda y al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
-mini-bat: vuela a media altura de dercha a izquierda en la escena, al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
+
+Mini-bat: vuela a media altura de dercha a izquierda en la escena, al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
 
 Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá a través de checks de estado para ver si puedes saltar, al igual que mecánicas dentro del sistema para diseñar proyectiles que se originan del personaje y se hacen más grandes al alejarse de este.
 
@@ -155,9 +156,8 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
     b.	BaseEnemy
     c.	BaseObject
 2.	BaseObstacle
-3.	BaseInteractable
 ```
-_(example)_ 
+
 
 ## Derived Classes / Component Compositions
 ```
@@ -171,69 +171,67 @@ _(example)_
     d.	Sick-farmer
     e.	Evil-bat
 3.	BaseObject
-    a.	spray (pick-up-able to shoots antibacterial)
-    b.	ObjectChest (pick-up-able, throwable, spits gold coins with key)
-    c.	ObjectGoldCoin (cha-ching!)
-    d.	ObjectKey (pick-up-able, throwable)
-4.	BaseObstacle
-    a.	ObstacleWindow (destroyed with rock)
-    b.	ObstacleWall
-    c.	ObstacleGate (watches to see if certain buttons are pressed)
-5.	BaseInteractable
-    a.	InteractableButton
+    a.	Workshop Table (interactable, obtain power-up)
+    b.	Checkpoint (interactable, saves spot for future defeat)
+    c.	End-goal ingredients (interactable, finishes the level)
+3.	BaseObstacle
+    a.	PlatformMain
+    b.	BaseChasm
+    
 ```
-_(example)_
 
 # Graphics
 
 ## Style Attributes
-What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
+No se planea limitaciones de paleta, pero por lo general se utilizarán los mismos tipos de colores de cierto nivel. (Colores negros y grices para la ciudad, verdes y azules para el bosque, morados y negro para la cueva)
 
-What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
+El estilo gráficos es pixeleado, con escenarios con semejanza a la realidad en situaciones extremas y peculiares. Los personajes del juego tienen un contorno ligero negro, y los escenarios al igual mantienen el mismo estilo. Por lo general los sprites no tienen mucha curvatura y son pequeños.
 
-	Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
+La mesa de power-ups tendrá un contorno brillante blanco (al igual que los checkpoints) para que el usuario sepa que es algo que debe de tocar, al pararse frente a estos, el contorno cambiará de color para mostrar que esto fue coleccionado.
+
+Si el jugador es golpeado por un enemigo, brillará temporalmente y se escuchará un sonido de dolor correspondiente. Los enemigos tendrán el mismo efecto pero desaparecerán poco tiempo después.
+
 
 ## Graphics Needed
 ```
 1.	Characters
     a.	Human-like
-        i.	Goblin (idle, walking, throwing)
-        ii.	Guard (idle, walking, stabbing)
-        iii.	Prisoner (walking, running)
+        i.	Emily (idle, walking, holding)
+        ii.	Sick-guy (walking)
+        iii.	Anti-masker (walking, screaming, damaged)
+	iv.	Sick-farmer (walking, throwing, contaminating, damaged)
     b.	Other
-        i.	Wolf (idle, walking, running)
-        ii.	Giant Rat (idle, scurrying)
+        i.	Mini-bat (flying)
+        ii.	Evil-bat (flying, throwing, damaged)
 2.	Blocks
-    a.	Dirt
+    a.	Cement
     b.	Dirt/Grass
-    c.	Stone Block
-    d.	Stone Bricks
-    e.	Tiled Floor
-    f.	Weathered Stone Block
-    g.	Weathered Stone Bricks
+    c.	Metal
+    d.	Wood
+    e.	Stone
+    f.	Water
 3.	Ambient
     a.	Tall Grass
-    b.	Rodent (idle, scurrying)
-    c.	Torch
-    d.	Armored Suit
-    e.	Chains (matching Weathered Stone Bricks)
-    f.	Blood stains (matching Weathered Stone Bricks)
+    b.	Critter (scurrying)
+    c.	Trash
+    d.	Stalagmite
+    e.	Bones
 4.	Other
-    a.	Chest
-    b.	Door (matching Stone Bricks)
-    c.	Gate
-    d.	Button (matching Weathered Stone Bricks)
+    a.	Table
+    b.	Gel Station
+    c.	Crafting Tools
+    d.	Ingredients
+    e. Books
 ```
-_(example)_
-
-_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
-_Classes + Themes section as a reference. It’s up to you.)_
-
 
 # Sounds/Music
  
 ## Style Attributes
 Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
+
+Cada nivel 
+
+Música electrónica con tempos rápidos de suspenso para
 
 Stylistically, what kind of sound effects are you looking for? Do you want to exaggerate actions with lengthy, cartoony sounds (e.g. mario’s jump), or use just enough to let the player know something happened (e.g. mega man’s landing)? Going for realism? You can use the music style as a bit of a reference too.
 	
