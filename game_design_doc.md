@@ -1,4 +1,4 @@
-# Game Name Here
+# Wrecking Pandemic
 > Game Design Document
 
 # Table of Content
@@ -78,7 +78,7 @@ mini-bat: vuela a media altura de dercha a izquierda en la escena, al contacto c
 Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá a través de checks de estado para ver si puedes saltar, al igual que mecánicas dentro del sistema para diseñar proyectiles que se originan del personaje y se hacen más grandes al alejarse de este.
 
 # Level Design
- (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
+
 
 ## Themes
 ```
