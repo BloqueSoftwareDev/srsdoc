@@ -7,7 +7,7 @@
 - [Activity Diagram -> Kiosk Check-In System Use Case](#activity-diagram---kiosk-check-in-system-use-case)
 
 ## Business Use Case Model
-![Business Use Case Model](diagrams/business-use-case-example.drawio.svg)
+![Business Use Case Model](diagrams/diagramas_use_case_wreckingpandemic.drawio.svg)
 
 ## Subsystem Use Case Model -> Kiosk Check-In
 ![Subsystem Use Case Model -> Kiosk Check-In](diagrams/system-use-case-example.drawio.svg)
