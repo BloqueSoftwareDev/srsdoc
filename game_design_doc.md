@@ -68,11 +68,14 @@ Cada boss tiene sus propias mecánicas:
 
 
 - El Anti-masker tiene la habilidad de llamar a mini anti-maskers para correr hacia el jugador, aunque no sean atacados, estos siempre se moveran a la derecha sin regresar. Si son atacados, son derrotados en un solo golpe como el resto de los enemigos comunes. El anti-masker también tiene la habilidad de gritar tan fuerte que lanza un proyectil que se debe evitar saltando por encima o caminando por debajo. El anti-masker debe recibir 5 ataques antes de ser derrotado y tiene unos segundos de invulnerabilidad al ser atacado.
-- El granjero tiene la habilidad de 
+- El Sick-farmer tiene la habilidad de saltar y lanzar maíz contaminado en tres posibles alturas y direcciones. El granjero debe recibir 5 ataques antes de ser derrotado, habra plataformas para que el ususario pueda esquivar los maices no importa cual dirección tome siempre habra manera de evitarlos.
+- El Evil-bat es un murcielago mutante que tiene la capacidad lanzar un virus, habra tres diferentes mutaciones del virus: la verde que es un lanzamiento recto a media altura, la amarilla que rueda por el piso y la roja que ira botando, el Evil-bat debe de recibir 7 atques antes de ser derrotado, y tendra momento de invulnerabilidad 
+
+
+Sick-guy: se mueve de derecha a izquierda y al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
+mini-bat: vuela a media altura de dercha a izquierda en la escena, al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
 
 Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá a través de checks de estado para ver si puedes saltar, al igual que mecánicas dentro del sistema para diseñar proyectiles que se originan del personaje y se hacen más grandes al alejarse de este.
-
-The enemies walk left to right 
 
 # Level Design
  (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
@@ -120,7 +123,7 @@ The enemies walk left to right
             1.	Mini-Bats (Enemy)
             2.	Stalagmites/Stalactites
             3.	Workbench
-            4.	Bat Boss
+            4.	Evil-bat Boss
 
 ```
 
@@ -156,15 +159,15 @@ _(example)_
 ```
 1.	BasePlayer
     a.	PlayerMain
-    b.	PlayerUnlockable
 2.	BaseEnemy
-    a.	EnemyWolf
-    b.	EnemyGoblin
-    c.	EnemyGuard (may drop key)
-    d.	EnemyGiantRat
-    e.	EnemyPrisoner
+    a.	Sick-guy
+    b.	mini-bat
+    	Bosses
+    c.	Anti-masker
+    d.	Sick-farmer
+    e.	Evil-bat
 3.	BaseObject
-    a.	ObjectRock (pick-up-able, throwable)
+    a.	spray (pick-up-able to shoots antibacterial)
     b.	ObjectChest (pick-up-able, throwable, spits gold coins with key)
     c.	ObjectGoldCoin (cha-ching!)
     d.	ObjectKey (pick-up-able, throwable)
