@@ -127,19 +127,23 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
 
 ```
 
-_(example)_
+
 
 ## Game Flow
 ```
-1.	Player starts in forest
-2.	Pond to the left, must move right
-3.	To the right is a hill, player jumps to traverse it (“jump” taught)
-4.	Player encounters castle - door’s shut and locked
-5.	There’s a window within jump height, and a rock on the ground
-6.	Player picks up rock and throws at glass (“throw” taught)
-7.	… etc.
+1.	Player starts in city, leftmost part of screen
+2.	Wall to the left, player must move right
+3.	To the right is a wall with a platform nearby, player must jump on platform to traverse wall (“jump” taught)
+4.	Player encounters sick guy - must avoid him to reach workbench
+5.	Player reaches workbench and message of new skill learned appears
+6.	Player utilizes spray skill to eliminate enemy (“spray” taught)
+7.	If player is hit, character yelps in pain and interface shows one less heart ("health" taught)
+8.	To the right is a checkpoint, player must walk through it to progress ("checkpoints" taught)
+9.	If all hitpoints are lost, character appears in last checkpoint ("continnue" taught)
+10.	Player encounters anti-masker, requires multiple hits to be defeated ("bosses" taught)
+11.	Player encounters end goal, must walk through it to continue right ("level end" taught)
 ```
-(example)
+
 
 
 # Development
