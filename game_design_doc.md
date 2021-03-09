@@ -227,56 +227,41 @@ Si el jugador es golpeado por un enemigo, brillará temporalmente y se escuchar�
 # Sounds/Music
  
 ## Style Attributes
-Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
+Música electrónica con tempos rápidos de suspenso.
 
-Cada nivel 
-
-Música electrónica con tempos rápidos de suspenso para
-
-Stylistically, what kind of sound effects are you looking for? Do you want to exaggerate actions with lengthy, cartoony sounds (e.g. mario’s jump), or use just enough to let the player know something happened (e.g. mega man’s landing)? Going for realism? You can use the music style as a bit of a reference too.
-	
-Remember, auditory feedback should stand out from the music and other sound effects so the player hears it well. Volume, panning, and frequency/pitch are all important aspects to consider in both music and sounds - so plan accordingly!
+Los efectos de sonido son algo sutiles pero no tanto para ser realista.
 
 ## Sounds Needed
 ```
 1.	Effects
-    a.	Soft Footsteps (dirt floor)
-    b.	Sharper Footsteps (stone floor)
+    a.	Soft Footsteps (grassy terrain)
+    b.	Sharper Footsteps (stone/metal floor)
     c.	Soft Landing (low vertical velocity)
     d.	Hard Landing (high vertical velocity)
-    e.	Glass Breaking
-    f.	Chest Opening
-    g.	Door Opening
+    e.	Spray sound
+    f.	Whooshing sound
 2.	Feedback
     a.	Relieved “Ahhhh!” (health)
-    b.	Shocked “Ooomph!” (attacked)
-    c.	Happy chime (extra life)
-    d.	Sad chime (died)
+    b.	Shocked “Ouch!” (attacked)
+    d.	Sad chime (infected)
 ```
-_(example)_
 
 ## Music Needed
 ```
-1.	Slow-paced, nerve-racking “forest” track
-2.	Exciting “castle” track
-3.	Creepy, slow “dungeon” track
-4.	Happy ending credits track
-5.	Rick Astley’s hit #1 single “Never Gonna Give You Up”
+1.	Energetic “forest” track
+2.	High-octane “city” track
+3.	Creepy, slow “cavern” track
+4.	Happy menu track
 ``` 
-_(example)_
-
-_(Note : Again, if you’re soloing you might be able to / want to skip this section. It’s up to you.)_
 
 # Schedule
- 
-(what is a schedule, i don’t even. list is good enough, right? if not add some dates i guess)
 
 ```
 1.	develop base classes
     a.	base entity
-        i.	base player
-        ii.	base enemy
-        iii.	base block
+        i.	Emily
+        ii.	Enemy
+        iii.	Platform
     b.	base app state
         i.	game world
         ii.	menu world
@@ -286,19 +271,19 @@ _(Note : Again, if you’re soloing you might be able to / want to skip this sec
 4.	develop other derived classes
     a.	blocks
         i.	moving
-        ii.	falling
-        iii. breaking
-        iv.	cloud
+        ii. 	dropping
     b.	enemies
-        i. soldier
-        ii.	rat
-        iii. etc.
+        i. Sick-guy
+        ii.	Mini-bat
+        iii. Anti-masker
+	iv. Sick farmer
+	v. Evil-bat
 5.	design levels
+	i. Forest Level and Boss
+	ii. City Level and Boss
+	iii. Cavern Level and Boss
 a.	introduce motion/jumping
-b.	introduce throwing
-c.	mind the pacing, let the player play between lessons
 6.	design sounds
 7.	design music
 ```
-_(example)_
 
