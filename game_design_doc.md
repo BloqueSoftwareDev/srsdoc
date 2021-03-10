@@ -65,6 +65,8 @@ Al comenzar el juego el avatar solo puede moverse hacia los lados y saltar una s
 - Principio del nivel 3 - Obtienes la habilidad de protección con el escudo, bloqueando proyectiles con la tecla "O". Esos proyectiles solo se pueden bloquear frente a Emily, proyectiles detrás aún causarán daño.
 
 ![Power-up -> Game](Images/workbench.png)
+![Spray -> Game](Images/spray.png)
+![Powered-up -> Game](Images/emily_spray.png)
 
 Cada boss tiene sus propias mecánicas:
 
@@ -104,6 +106,7 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             4.	Anti-masker (Karen) boss 
 ```
 ![Backgrounds -> Game](Images/background.png)
+
 ```
 2.	Plains
     a.	Mood
