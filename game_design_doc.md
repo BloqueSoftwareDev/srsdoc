@@ -33,6 +33,8 @@
 ## Summary
 Wrecking Pandemic es un platformer 2D sobre una ingeniera biomédica que debe salvar al mundo de una pandemia y de aquellos que no siguen las regulaciones. Ella diseña y construye las herramientas perfectas para cada nivel; incluyendo un spray curativo, pócima de doble salto y armadura protectiva.
 
+![Main Character -> Game](Images/emily.png)
+
 ## Gameplay
 Al ser un platformer 2D, Wrecking Pandemic incluye principalmente movimiento de izquierda a derecha con saltos para evitar enemigos y llegar a plataformas. El objetivo del juego es llegar al final, derrotar el mini-boss y conseguir el componente de la cura del nivel correspondiente. Al principio de cada nivel Emily diseña una herramienta que le otorga una habilidad perfecta para el nivel, y debe de usar esta para sobrepasar los objetivos particulares del nivel. El jugador debe adaptarse para estas situaciones únicas, pero siempre manteniendo la esencia de moverse de izquierda a derecha y saltar. 
 
@@ -62,6 +64,7 @@ Al comenzar el juego el avatar solo puede moverse hacia los lados y saltar una s
 - Principio del nivel 2 - Obtienes la habilidad de saltar una vez adicional después de tu primer salto. Esto se hace a través de un int que mide cuantos saltos te quedan, comenzando con 1 pero volviendose 2 al conseguir esta habilidad. Este int se resettea al tocar el suelo después de saltar.
 - Principio del nivel 3 - Obtienes la habilidad de protección con el escudo, bloqueando proyectiles con la tecla "O". Esos proyectiles solo se pueden bloquear frente a Emily, proyectiles detrás aún causarán daño.
 
+![Power-up -> Game](Images/workbench.png)
 
 Cada boss tiene sus propias mecánicas:
 
@@ -73,6 +76,8 @@ Cada boss tiene sus propias mecánicas:
 
 
 Sick-guy: se mueve de derecha a izquierda y al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
+
+![Enemy -> Game](Images/sick_guy.png)
 
 Mini-bat: vuela a media altura de dercha a izquierda en la escena, al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
 
@@ -97,6 +102,9 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             2.	Sick Citizens (Enemy)
             3.	Chasms
             4.	Anti-masker (Karen) boss 
+```
+![Backgrounds -> Game](Images/background.png)
+```
 2.	Plains
     a.	Mood
         i.	Peaceful, calm, active
@@ -111,6 +119,9 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             2.	Platforms
             3.	Workbench
             4.	Sick Farmer boss
+```
+
+```
 3.	Cavern
     a.	Mood
         i.	Spooky, threatening, silent
@@ -125,7 +136,6 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             2.	Stalagmites/Stalactites
             3.	Workbench
             4.	Evil-bat Boss
-
 ```
 
 
