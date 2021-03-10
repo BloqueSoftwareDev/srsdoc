@@ -33,7 +33,7 @@
 ## Summary
 Wrecking Pandemic es un platformer 2D sobre una ingeniera biomédica que debe salvar al mundo de una pandemia y de aquellos que no siguen las regulaciones. Ella diseña y construye las herramientas perfectas para cada nivel; incluyendo un spray curativo, pócima de doble salto y armadura protectiva.
 
-![Subsystem Use Case Model -> Game](Images/emily.png)
+![Main Character -> Game](Images/emily.png)
 
 ## Gameplay
 Al ser un platformer 2D, Wrecking Pandemic incluye principalmente movimiento de izquierda a derecha con saltos para evitar enemigos y llegar a plataformas. El objetivo del juego es llegar al final, derrotar el mini-boss y conseguir el componente de la cura del nivel correspondiente. Al principio de cada nivel Emily diseña una herramienta que le otorga una habilidad perfecta para el nivel, y debe de usar esta para sobrepasar los objetivos particulares del nivel. El jugador debe adaptarse para estas situaciones únicas, pero siempre manteniendo la esencia de moverse de izquierda a derecha y saltar. 
@@ -99,6 +99,9 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             2.	Sick Citizens (Enemy)
             3.	Chasms
             4.	Anti-masker (Karen) boss 
+```
+![Backgrounds -> Game](Images/background.png)
+```
 2.	Plains
     a.	Mood
         i.	Peaceful, calm, active
@@ -113,6 +116,9 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             2.	Platforms
             3.	Workbench
             4.	Sick Farmer boss
+```
+
+```
 3.	Cavern
     a.	Mood
         i.	Spooky, threatening, silent
@@ -127,7 +133,6 @@ Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá 
             2.	Stalagmites/Stalactites
             3.	Workbench
             4.	Evil-bat Boss
-
 ```
 
 
