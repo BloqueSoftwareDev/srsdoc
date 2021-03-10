@@ -76,6 +76,8 @@ Cada boss tiene sus propias mecánicas:
 
 Sick-guy: se mueve de derecha a izquierda y al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
 
+![Enemy -> Game](Images/sick_guy.png)
+
 Mini-bat: vuela a media altura de dercha a izquierda en la escena, al contacto con el el usuario recibe daño, con un solo ataque es derrotado.
 
 Las mecánicas principales son el doble salto y el proyectil. Esto se cumplirá a través de checks de estado para ver si puedes saltar, al igual que mecánicas dentro del sistema para diseñar proyectiles que se originan del personaje y se hacen más grandes al alejarse de este.
