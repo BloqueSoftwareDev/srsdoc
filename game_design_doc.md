@@ -74,7 +74,7 @@ Cada boss tiene sus propias mecánicas:
 
 - El Anti-masker tiene la habilidad de llamar a mini anti-maskers para correr hacia el jugador, aunque no sean atacados, estos siempre se moveran a la derecha sin regresar. Si son atacados, son derrotados en un solo golpe como el resto de los enemigos comunes. El anti-masker también tiene la habilidad de gritar tan fuerte que lanza un proyectil que se debe evitar saltando por encima o caminando por debajo. El anti-masker debe recibir 5 ataques antes de ser derrotado y tiene unos segundos de invulnerabilidad al ser atacado.!
 
-[Mini-boss AM -> Game](Images/anti-masker.png)
+![Mini-boss AM -> Game](Images/anti-masker.png)
 - El Sick-farmer tiene la habilidad de saltar y lanzar maíz contaminado en tres posibles alturas y direcciones. El granjero debe recibir 5 ataques antes de ser derrotado, habra plataformas para que el ususario pueda esquivar los maices no importa cual dirección tome siempre habra manera de evitarlos.
 - El Evil-bat es un murcielago mutante que tiene la capacidad lanzar un virus, habra tres diferentes mutaciones del virus: la verde que es un lanzamiento recto a media altura, la amarilla que rueda por el piso y la roja que ira botando, el Evil-bat debe de recibir 7 atques antes de ser derrotado, y tendra momento de invulnerabilidad 
 
